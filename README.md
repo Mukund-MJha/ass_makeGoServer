@@ -9,3 +9,4 @@ COncepts used:
 - was using curl on windows, faced issue as windows doen't use curl as curl but as Invoke-WebRequest. used the command: Remove-item alias:curl
 curl worked therafter. however, another issue popped up; while making a PUT request, the data being sent was not being recognized ig the issue stems from something related to 
 problem with "" and '' and json and curl on windows.
+- Though, put is working, the issue being that no data is being updated with post.
